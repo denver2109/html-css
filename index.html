@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Резюме Гомера Симпсона</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="block about">
+            <img src="homer.jpg" class="avatar" alt="мое фото">
+            <h1>Симпсон Гомер</h1>
+            <p>Я Гомер Симпсон, глава семейства Симпсонов. Работаю на атомной электростанции, но больше всего люблю
+                проводить время с пивом в баре Мо, есть пончики и смотреть телевизор. Я ленив, забавен и всегда
+                попадаю
+                в нелепые ситуации.</p>
+            <p class="w-bold">Я в социальных сетях:</p>
+            <ul class="social_link">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkeIn</a></li>
+            </ul>
+        </div>
+        <div class="block hobby">
+            <h2>Мое хобби</h2>
+            <ol>
+                <li>Пиво и бары</li>
+                <li>Телевидение</li>
+                <li>Донатсы</li>
+                <li>Спорт</li>
+            </ol>
+        </div>
+        <div class="block experience">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Профессия/Роль</th>
+                        <th>Описание</th>
+                        <th>Дата</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Работник атомной электростанции</td>
+                        <td>Основная работа.</td>
+                        <td>Сезон 1, серия 1 (1989)</td>
+                    </tr>
+                    <tr>
+                        <td>Бармен</td>
+                        <td>Пробовал работать в баре Мо, но не долго.</td>
+                        <td>Сезон 3, серия 10 (1991)</td>
+                    </tr>
+                    <tr>
+                        <td>Музыкант</td>
+                        <td>Участник музыкальной группы "Be Sharps" и других временных музыкальных проектов.</td>
+                        <td>Сезон 5, серия 1 (1993)</td>
+                    </tr>
+                    <tr>
+                        <td>Клоун</td>
+                        <td>Учился у клоуна Красти и работал клоуном.</td>
+                        <td>Сезон 6, серия 15 (1995)</td>
+                    </tr>
+                    <tr>
+                        <td>Менеджер</td>
+                        <td>Пробовал себя в роли менеджера по различным проектам, включая управление группой</td>
+                        <td>Сезон 8, серия 13 (1997)</td>
+                    </tr>
+                    <tr>
+                        <td>Водитель грузовика</td>
+                        <td>Водитель грузовика</td>
+                        <td>Сезон 10, серия 17 (1999)</td>
+                    </tr>
+                    <tr>
+                        <td>Мэр города</td>
+                        <td>Мэр Спрингфилда</td>
+                        <td>Сезон 11, серия 17 (2000)</td>
+                    </tr>
+                    <tr>
+                        <td>Астронавт</td>
+                        <td>Астронавт NASA</td>
+                        <td>Сезон 5, серия 15 (1994)</td>
+                    </tr>
+                    <tr>
+                        <td>Охранник</td>
+                        <td>Охранник в торговом центре</td>
+                        <td>Сезон 17, серия 16 (2006)</td>
+                    </tr>
+                    <tr>
+                        <td>Фермер</td>
+                        <td>Пытался заняться сельским хозяйством.</td>
+                        <td>Сезон 11, серия 5 (1999)</td>
+                    </tr>
+                    <tr>
+                        <td>Владелец бизнеса</td>
+                        <td>Собственные бизнесы, включая интернет-стартап и магазин комиксов.</td>
+                        <td>Сезон 7, серия 23 (1996)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="block more">
+            <h2>Подробнее о Симпсонах</h2>
+            <ul class="simps_link">
+                <li><a href="#">Симпсоны в Wiki</a></li>
+                <li><a href="#">Симпсоны на IMDB</a></li>
+            </ul>
+        </div>
+        <div class="block contact">
+            <h2>Связаться со мной</h2>
+            <form class="feedback_me" action="">
+                <div class="form_line">
+                    <label for="name">Ваше имя</label>
+                    <input type="name" id="name" placeholder="Введите ваше имя">
+                </div>
+                <div class="form_line">
+                    <label for="email">Ваш Email</label>
+                    <input type="email" id="email" placeholder="Введите ваш email">
+                </div>
+                <div class="form_text">
+                    <label for="message">Сообщение</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите текст сообщения"></textarea>
+                </div>
+                <input class="btn" type="button" value="Отправить">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
